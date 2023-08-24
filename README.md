@@ -1,0 +1,2 @@
+# 11482_cardio_guidance_Taraus
+2023年嵌入式大赛11482队的Taraus部分代码
