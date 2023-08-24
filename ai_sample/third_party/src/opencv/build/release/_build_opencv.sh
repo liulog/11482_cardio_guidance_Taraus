@@ -1,0 +1,38 @@
+#!/bin/bash
+cmake ../../ \
+-G"Unix Makefiles" \
+-DCMAKE_TOOLCHAIN_FILE=_toolchain.cmake \
+-DCMAKE_VERBOSE_MAKEFILE=ON \
+-DBUILD_SHARED_LIBS=ON \
+-DBUILD_ZLIB=ON \
+-DWITH_GTK=OFF \
+-DBUILD_SHARED_LIBS=ON \
+-DBUILD_opencv_world=ON \
+-DCMAKE_INSTALL_PREFIX=./install \
+-DBUILD_opencv_ts=OFF \
+-DBUILD_opencv_shape=OFF \
+-DBUILD_opencv_stitching=OFF \
+-DBUILD_opencv_apps=OFF \
+-DBUILD_opencv_calib3d=ON \
+-DBUILD_opencv_dnn=ON \
+-DBUILD_opencv_features2d=ON \
+-DBUILD_opencv_flann=ON \
+-DBUILD_opencv_ml=OFF \
+-DBUILD_opencv_objdetect=ON \
+-DBUILD_opencv_photo=OFF \
+-DBUILD_opencv_video=OFF \
+-DBUILD_opencv_videoio=OFF \
+-DBUILD_opencv_videostab=OFF \
+-DWITH_GTK=OFF \
+-DWITH_GTK=OFF \
+-DWITH_GTK_2_X=OFF \
+-DWITH_CUDA=OFF \
+-DWITH_IPP=OFF \
+-DWITH_OPENCL=OFF \
+-DWITH_OPENCLAMDBLAS=OFF \
+-DWITH_QUIRC=OFF \
+-DWITH_OPENCLAMDFFT=OFF \
+-DWITH_1394=OFF \
+-DWITH_FFMPEG=OFF \
+-DWITH_WEBP=OFF \
+-DWITH_TIFF=OFF  \

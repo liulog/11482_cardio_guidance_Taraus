@@ -1,0 +1,18 @@
+{
+  "rootdir": "/home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv",
+  "modules": [
+    { "name": "core", "location": "modules/core" },
+    { "name": "imgproc", "location": "modules/imgproc" },
+    { "name": "dnn", "location": "modules/dnn" },
+    { "name": "features2d", "location": "modules/features2d" },
+    { "name": "imgcodecs", "location": "modules/imgcodecs" },
+    { "name": "calib3d", "location": "modules/calib3d" },
+    { "name": "highgui", "location": "modules/highgui" },
+    { "name": "objdetect", "location": "modules/objdetect" }
+  ],
+  "files_remap": [
+    { "src": "modules/java/generator/android/java/org/opencv/android/OpenCVLoader.java.in", "target": "/home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/configured/modules/java/generator/android/java/org/opencv/android/OpenCVLoader.java" },
+    { "src": "modules/java/generator/src/java/org/opencv/osgi/OpenCVNativeLoader.java.in", "target": "/home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/configured/modules/java/generator/src/java/org/opencv/osgi/OpenCVNativeLoader.java" },
+    { "src": "modules/core/misc/java/src/java/core+Core.jcode.in", "target": "/home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/configured/modules/core/misc/java/src/java/core+Core.jcode" }
+  ]
+}

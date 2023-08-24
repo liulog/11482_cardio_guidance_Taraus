@@ -1,0 +1,10 @@
+//user-defined headers
+#include "/home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/modules/core/misc/python/pyopencv_async.hpp"
+#include "/home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/modules/core/misc/python/pyopencv_cuda.hpp"
+#include "/home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/modules/core/misc/python/pyopencv_umat.hpp"
+#include "/home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/modules/flann/misc/python/pyopencv_flann.hpp"
+#include "/home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/modules/dnn/misc/python/pyopencv_dnn.hpp"
+#include "/home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/modules/features2d/misc/python/pyopencv_features2d.hpp"
+#include "/home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/modules/gapi/misc/python/python_bridge.hpp"
+#include "/home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/modules/gapi/misc/python/pyopencv_gapi.hpp"
+#include "/home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/modules/objdetect/misc/python/pyopencv_objdetect.hpp"

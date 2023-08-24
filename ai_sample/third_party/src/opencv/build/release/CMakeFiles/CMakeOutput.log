@@ -1,0 +1,982 @@
+The target system is: Linux -  - 
+The host system is: Linux - 5.4.0-132-generic - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e9042/fast && /usr/bin/make -f CMakeFiles/cmTC_e9042.dir/build.make CMakeFiles/cmTC_e9042.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e9042.dir/testCXXCompiler.cxx.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang++ --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-g++ --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -march=armv7-a -march=armv7-a  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_e9042.dir/testCXXCompiler.cxx.o -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+clang-10: warning: argument unused during compilation: '--gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-g++' [-Wunused-command-line-argument]
+Linking CXX executable cmTC_e9042
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9042.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang++ --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-g++ --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -march=armv7-a -march=armv7-a  -O3 -DNDEBUG  -fuse-ld=lld  CMakeFiles/cmTC_e9042.dir/testCXXCompiler.cxx.o  -o cmTC_e9042 
+clang-10: warning: argument unused during compilation: '--gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-g++' [-Wunused-command-line-argument]
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5e5d8/fast && /usr/bin/make -f CMakeFiles/cmTC_5e5d8.dir/build.make CMakeFiles/cmTC_5e5d8.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5e5d8.dir/CMakeCXXCompilerABI.cpp.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang++ --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-g++ --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -march=armv7-a -march=armv7-a  -O3 -DNDEBUG -fPIE   -v -o CMakeFiles/cmTC_5e5d8.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)
+Target: arm-unknown-linux-ohos
+Thread model: posix
+InstalledDir: /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin
+clang-10: warning: argument unused during compilation: '--gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-g++' [-Wunused-command-line-argument]
+ (in-process)
+ "/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang-10" -cc1 -triple armv7-unknown-linux-ohos -emit-obj -mnoexecstack -disable-free -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mframe-pointer=all -fno-rounding-math -masm-verbose -mconstructor-aliases -fuse-init-array -target-cpu generic -target-feature +soft-float -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -crypto -target-feature -dotprod -target-feature -fp16fml -target-feature -mve -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs-linux -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1 -D NDEBUG -isysroot /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot -internal-isystem /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/../include/c++/v1 -internal-isystem /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/include -internal-externc-isystem /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/include/arm-linux-ohos -internal-externc-isystem /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/include -internal-externc-isystem /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/include -O3 -fdeprecated-macro -fdebug-compilation-dir /home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fno-signed-char -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_5e5d8.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 10.0.1 based upon LLVM 10.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/../include/c++/v1
+ /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/include
+ /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/include/arm-linux-ohos
+ /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/include
+End of search list.
+Linking CXX executable cmTC_5e5d8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e5d8.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang++ --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-g++ --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -march=armv7-a -march=armv7-a  -O3 -DNDEBUG  -fuse-ld=lld -v CMakeFiles/cmTC_5e5d8.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5e5d8 
+OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)
+Target: arm-unknown-linux-ohos
+Thread model: posix
+InstalledDir: /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin
+clang-10: warning: argument unused during compilation: '--gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-g++' [-Wunused-command-line-argument]
+ "/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/ld.lld" --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /lib/ld-musl-arm.so.1 -o cmTC_5e5d8 /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/arm-linux-ohos/Scrt1.o /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/arm-linux-ohos/crti.o /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos/clang_rt.crtbegin.o -L/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/../lib/arm-linux-ohos/c++/ -L/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos -L/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/ -L/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/../lib/arm-linux-ohos/ -L/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/arm-linux-ohos/ CMakeFiles/cmTC_5e5d8.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lc++abi -lunwind -lm /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos/libclang_rt.builtins.a -l:libunwind.a -lc /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos/libclang_rt.builtins.a -l:libunwind.a /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos/clang_rt.crtend.o /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/arm-linux-ohos/crtn.o
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/../include/c++/v1]
+    add: [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/include]
+    add: [/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/include/arm-linux-ohos]
+    add: [/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/../include/c++/v1] ==> [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/include/c++/v1]
+  collapse include dir [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/include] ==> [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/include]
+  collapse include dir [/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/include/arm-linux-ohos] ==> [/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/include/arm-linux-ohos]
+  collapse include dir [/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/include] ==> [/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/include]
+  implicit include dirs: [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/include/c++/v1;/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/include;/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/include/arm-linux-ohos;/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_5e5d8/fast && /usr/bin/make -f CMakeFiles/cmTC_5e5d8.dir/build.make CMakeFiles/cmTC_5e5d8.dir/build]
+  ignore line: [make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_5e5d8.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang++ --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-g++ --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -march=armv7-a -march=armv7-a  -O3 -DNDEBUG -fPIE   -v -o CMakeFiles/cmTC_5e5d8.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)]
+  ignore line: [Target: arm-unknown-linux-ohos]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin]
+  ignore line: [clang-10: warning: argument unused during compilation: '--gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-g++' [-Wunused-command-line-argument]]
+  ignore line: [ (in-process)]
+  ignore line: [ "/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang-10" -cc1 -triple armv7-unknown-linux-ohos -emit-obj -mnoexecstack -disable-free -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mframe-pointer=all -fno-rounding-math -masm-verbose -mconstructor-aliases -fuse-init-array -target-cpu generic -target-feature +soft-float -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -crypto -target-feature -dotprod -target-feature -fp16fml -target-feature -mve -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs-linux -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1 -D NDEBUG -isysroot /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot -internal-isystem /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/../include/c++/v1 -internal-isystem /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/include -internal-externc-isystem /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/include/arm-linux-ohos -internal-externc-isystem /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/include -internal-externc-isystem /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/include -O3 -fdeprecated-macro -fdebug-compilation-dir /home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fno-signed-char -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_5e5d8.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 10.0.1 based upon LLVM 10.0.1 default target x86_64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/../include/c++/v1]
+  ignore line: [ /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/include]
+  ignore line: [ /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/include/arm-linux-ohos]
+  ignore line: [ /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_5e5d8]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e5d8.dir/link.txt --verbose=1]
+  ignore line: [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang++ --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-g++ --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -march=armv7-a -march=armv7-a  -O3 -DNDEBUG  -fuse-ld=lld -v CMakeFiles/cmTC_5e5d8.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5e5d8 ]
+  ignore line: [OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)]
+  ignore line: [Target: arm-unknown-linux-ohos]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin]
+  ignore line: [clang-10: warning: argument unused during compilation: '--gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-g++' [-Wunused-command-line-argument]]
+  link line: [ "/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/ld.lld" --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /lib/ld-musl-arm.so.1 -o cmTC_5e5d8 /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/arm-linux-ohos/Scrt1.o /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/arm-linux-ohos/crti.o /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos/clang_rt.crtbegin.o -L/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/../lib/arm-linux-ohos/c++/ -L/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos -L/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/ -L/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/../lib/arm-linux-ohos/ -L/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/arm-linux-ohos/ CMakeFiles/cmTC_5e5d8.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lc++abi -lunwind -lm /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos/libclang_rt.builtins.a -l:libunwind.a -lc /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos/libclang_rt.builtins.a -l:libunwind.a /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos/clang_rt.crtend.o /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/arm-linux-ohos/crtn.o]
+    arg [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/ld.lld] ==> ignore
+    arg [--sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-EL] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=4096] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-musl-arm.so.1] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_5e5d8] ==> ignore
+    arg [/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/arm-linux-ohos/Scrt1.o] ==> ignore
+    arg [/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/arm-linux-ohos/crti.o] ==> ignore
+    arg [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos/clang_rt.crtbegin.o] ==> ignore
+    arg [-L/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/../lib/arm-linux-ohos/c++/] ==> dir [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/../lib/arm-linux-ohos/c++/]
+    arg [-L/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos] ==> dir [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos]
+    arg [-L/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/] ==> dir [/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/]
+    arg [-L/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/../lib/arm-linux-ohos/] ==> dir [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/../lib/arm-linux-ohos/]
+    arg [-L/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/arm-linux-ohos/] ==> dir [/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/arm-linux-ohos/]
+    arg [CMakeFiles/cmTC_5e5d8.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lc++abi] ==> lib [c++abi]
+    arg [-lunwind] ==> lib [unwind]
+    arg [-lm] ==> lib [m]
+    arg [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos/libclang_rt.builtins.a] ==> lib [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos/libclang_rt.builtins.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-lc] ==> lib [c]
+    arg [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos/libclang_rt.builtins.a] ==> lib [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos/libclang_rt.builtins.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos/clang_rt.crtend.o] ==> ignore
+    arg [/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/arm-linux-ohos/crtn.o] ==> ignore
+  remove lib [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos/libclang_rt.builtins.a]
+  remove lib [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos/libclang_rt.builtins.a]
+  collapse library dir [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/../lib/arm-linux-ohos/c++/] ==> [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/arm-linux-ohos/c++]
+  collapse library dir [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos] ==> [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos]
+  collapse library dir [/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/] ==> [/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib]
+  collapse library dir [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/../lib/arm-linux-ohos/] ==> [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/arm-linux-ohos]
+  collapse library dir [/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/arm-linux-ohos/] ==> [/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/arm-linux-ohos]
+  implicit libs: [c++;c++abi;unwind;m;-l:libunwind.a;c;-l:libunwind.a]
+  implicit dirs: [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/arm-linux-ohos/c++;/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos;/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib;/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/arm-linux-ohos;/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/arm-linux-ohos]
+  implicit fwks: []
+
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ff372/fast && /usr/bin/make -f CMakeFiles/cmTC_ff372.dir/build.make CMakeFiles/cmTC_ff372.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ff372.dir/testCCompiler.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_ff372.dir/testCCompiler.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/testCCompiler.c
+clang-10: warning: argument unused during compilation: '--gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc' [-Wunused-command-line-argument]
+Linking C executable cmTC_ff372
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff372.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -O3 -DNDEBUG  -fuse-ld=lld  CMakeFiles/cmTC_ff372.dir/testCCompiler.c.o  -o cmTC_ff372 
+clang-10: warning: argument unused during compilation: '--gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc' [-Wunused-command-line-argument]
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ffc86/fast && /usr/bin/make -f CMakeFiles/cmTC_ffc86.dir/build.make CMakeFiles/cmTC_ffc86.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ffc86.dir/CMakeCCompilerABI.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -O3 -DNDEBUG -fPIE   -v -o CMakeFiles/cmTC_ffc86.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)
+Target: arm-unknown-linux-ohos
+Thread model: posix
+InstalledDir: /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin
+clang-10: warning: argument unused during compilation: '--gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc' [-Wunused-command-line-argument]
+ (in-process)
+ "/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang-10" -cc1 -triple armv4t-unknown-linux-ohos -emit-obj -mnoexecstack -disable-free -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mframe-pointer=all -fno-rounding-math -masm-verbose -mconstructor-aliases -fuse-init-array -target-cpu arm7tdmi -target-feature +soft-float -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -crypto -target-feature -dotprod -target-feature -fp16fml -target-feature -mve -target-feature -mve.fp -target-feature -fpregs -target-feature +strict-align -target-abi aapcs-linux -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1 -D NDEBUG -isysroot /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot -internal-isystem /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/include -internal-externc-isystem /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/include/arm-linux-ohos -internal-externc-isystem /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/include -internal-externc-isystem /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/include -O3 -fdebug-compilation-dir /home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fno-signed-char -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fdiagnostics-show-option -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_ffc86.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+clang -cc1 version 10.0.1 based upon LLVM 10.0.1 default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/include
+ /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/include/arm-linux-ohos
+ /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/include
+End of search list.
+Linking C executable cmTC_ffc86
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffc86.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -O3 -DNDEBUG  -fuse-ld=lld -v CMakeFiles/cmTC_ffc86.dir/CMakeCCompilerABI.c.o  -o cmTC_ffc86 
+OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)
+Target: arm-unknown-linux-ohos
+Thread model: posix
+InstalledDir: /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin
+clang-10: warning: argument unused during compilation: '--gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc' [-Wunused-command-line-argument]
+ "/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/ld.lld" --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /lib/ld-musl-arm.so.1 -o cmTC_ffc86 /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/arm-linux-ohos/Scrt1.o /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/arm-linux-ohos/crti.o /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos/clang_rt.crtbegin.o -L/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos -L/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/ -L/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/../lib/arm-linux-ohos/ -L/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/arm-linux-ohos/ CMakeFiles/cmTC_ffc86.dir/CMakeCCompilerABI.c.o /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos/libclang_rt.builtins.a -l:libunwind.a -lc /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos/libclang_rt.builtins.a -l:libunwind.a /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos/clang_rt.crtend.o /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/arm-linux-ohos/crtn.o
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/include]
+    add: [/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/include/arm-linux-ohos]
+    add: [/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/include] ==> [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/include]
+  collapse include dir [/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/include/arm-linux-ohos] ==> [/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/include/arm-linux-ohos]
+  collapse include dir [/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/include] ==> [/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/include]
+  implicit include dirs: [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/include;/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/include/arm-linux-ohos;/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_ffc86/fast && /usr/bin/make -f CMakeFiles/cmTC_ffc86.dir/build.make CMakeFiles/cmTC_ffc86.dir/build]
+  ignore line: [make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_ffc86.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -O3 -DNDEBUG -fPIE   -v -o CMakeFiles/cmTC_ffc86.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)]
+  ignore line: [Target: arm-unknown-linux-ohos]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin]
+  ignore line: [clang-10: warning: argument unused during compilation: '--gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc' [-Wunused-command-line-argument]]
+  ignore line: [ (in-process)]
+  ignore line: [ "/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang-10" -cc1 -triple armv4t-unknown-linux-ohos -emit-obj -mnoexecstack -disable-free -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mframe-pointer=all -fno-rounding-math -masm-verbose -mconstructor-aliases -fuse-init-array -target-cpu arm7tdmi -target-feature +soft-float -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -crypto -target-feature -dotprod -target-feature -fp16fml -target-feature -mve -target-feature -mve.fp -target-feature -fpregs -target-feature +strict-align -target-abi aapcs-linux -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1 -D NDEBUG -isysroot /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot -internal-isystem /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/include -internal-externc-isystem /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/include/arm-linux-ohos -internal-externc-isystem /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/include -internal-externc-isystem /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/include -O3 -fdebug-compilation-dir /home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -fno-signed-char -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fdiagnostics-show-option -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_ffc86.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 10.0.1 based upon LLVM 10.0.1 default target x86_64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/include]
+  ignore line: [ /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/include/arm-linux-ohos]
+  ignore line: [ /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_ffc86]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffc86.dir/link.txt --verbose=1]
+  ignore line: [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -O3 -DNDEBUG  -fuse-ld=lld -v CMakeFiles/cmTC_ffc86.dir/CMakeCCompilerABI.c.o  -o cmTC_ffc86 ]
+  ignore line: [OHOS () clang version 10.0.1.480513  (llvm-project b2cadc87d64786377748bdb6bc5e6949492f01ab)]
+  ignore line: [Target: arm-unknown-linux-ohos]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin]
+  ignore line: [clang-10: warning: argument unused during compilation: '--gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc' [-Wunused-command-line-argument]]
+  link line: [ "/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/ld.lld" --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot -pie -z noexecstack -EL --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=gnu --hash-style=both --enable-new-dtags --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /lib/ld-musl-arm.so.1 -o cmTC_ffc86 /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/arm-linux-ohos/Scrt1.o /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/arm-linux-ohos/crti.o /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos/clang_rt.crtbegin.o -L/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos -L/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/ -L/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/../lib/arm-linux-ohos/ -L/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/arm-linux-ohos/ CMakeFiles/cmTC_ffc86.dir/CMakeCCompilerABI.c.o /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos/libclang_rt.builtins.a -l:libunwind.a -lc /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos/libclang_rt.builtins.a -l:libunwind.a /home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos/clang_rt.crtend.o /home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/arm-linux-ohos/crtn.o]
+    arg [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/ld.lld] ==> ignore
+    arg [--sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-EL] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=4096] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-musl-arm.so.1] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ffc86] ==> ignore
+    arg [/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/arm-linux-ohos/Scrt1.o] ==> ignore
+    arg [/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/arm-linux-ohos/crti.o] ==> ignore
+    arg [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos/clang_rt.crtbegin.o] ==> ignore
+    arg [-L/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos] ==> dir [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos]
+    arg [-L/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/] ==> dir [/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/]
+    arg [-L/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/../lib/arm-linux-ohos/] ==> dir [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/../lib/arm-linux-ohos/]
+    arg [-L/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/arm-linux-ohos/] ==> dir [/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/arm-linux-ohos/]
+    arg [CMakeFiles/cmTC_ffc86.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos/libclang_rt.builtins.a] ==> lib [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos/libclang_rt.builtins.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-lc] ==> lib [c]
+    arg [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos/libclang_rt.builtins.a] ==> lib [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos/libclang_rt.builtins.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos/clang_rt.crtend.o] ==> ignore
+    arg [/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/arm-linux-ohos/crtn.o] ==> ignore
+  remove lib [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos/libclang_rt.builtins.a]
+  remove lib [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos/libclang_rt.builtins.a]
+  collapse library dir [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos] ==> [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos]
+  collapse library dir [/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/] ==> [/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib]
+  collapse library dir [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/../lib/arm-linux-ohos/] ==> [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/arm-linux-ohos]
+  collapse library dir [/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/arm-linux-ohos/] ==> [/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/arm-linux-ohos]
+  implicit libs: [-l:libunwind.a;c;-l:libunwind.a]
+  implicit dirs: [/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/clang/10.0.1/lib/arm-linux-ohos;/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib;/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/lib/arm-linux-ohos;/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot/usr/lib/arm-linux-ohos]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fc9e1/fast && /usr/bin/make -f CMakeFiles/cmTC_fc9e1.dir/build.make CMakeFiles/cmTC_fc9e1.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fc9e1.dir/CheckIncludeFile.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_fc9e1.dir/CheckIncludeFile.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fc9e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc9e1.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_fc9e1.dir/CheckIncludeFile.c.o  -o cmTC_fc9e1 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the posix_memalign exist passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0f843/fast && /usr/bin/make -f CMakeFiles/cmTC_0f843.dir/build.make CMakeFiles/cmTC_0f843.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0f843.dir/CheckSymbolExists.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_0f843.dir/CheckSymbolExists.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0f843
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f843.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_0f843.dir/CheckSymbolExists.c.o  -o cmTC_0f843 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+File /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_91852/fast && /usr/bin/make -f CMakeFiles/cmTC_91852.dir/build.make CMakeFiles/cmTC_91852.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91852.dir/CheckIncludeFile.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_91852.dir/CheckIncludeFile.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_91852
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91852.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_91852.dir/CheckIncludeFile.c.o  -o cmTC_91852 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the memalign exist passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_36844/fast && /usr/bin/make -f CMakeFiles/cmTC_36844.dir/build.make CMakeFiles/cmTC_36844.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_36844.dir/CheckSymbolExists.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_36844.dir/CheckSymbolExists.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_36844
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36844.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_36844.dir/CheckSymbolExists.c.o  -o cmTC_36844 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+File /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memalign
+  return ((int*)(&memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_95eea/fast && /usr/bin/make -f CMakeFiles/cmTC_95eea.dir/build.make CMakeFiles/cmTC_95eea.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95eea.dir/CheckIncludeFile.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_95eea.dir/CheckIncludeFile.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_95eea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95eea.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_95eea.dir/CheckIncludeFile.c.o  -o cmTC_95eea 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_410a7/fast && /usr/bin/make -f CMakeFiles/cmTC_410a7.dir/build.make CMakeFiles/cmTC_410a7.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_410a7.dir/CheckIncludeFile.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_410a7.dir/CheckIncludeFile.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_410a7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_410a7.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_410a7.dir/CheckIncludeFile.c.o  -o cmTC_410a7 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_60fde/fast && /usr/bin/make -f CMakeFiles/cmTC_60fde.dir/build.make CMakeFiles/cmTC_60fde.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_60fde.dir/CheckIncludeFile.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_60fde.dir/CheckIncludeFile.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_60fde
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60fde.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_60fde.dir/CheckIncludeFile.c.o  -o cmTC_60fde 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_38691/fast && /usr/bin/make -f CMakeFiles/cmTC_38691.dir/build.make CMakeFiles/cmTC_38691.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_38691.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_38691.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_38691
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38691.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_38691.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_38691 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5b098/fast && /usr/bin/make -f CMakeFiles/cmTC_5b098.dir/build.make CMakeFiles/cmTC_5b098.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b098.dir/TestEndianess.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_5b098.dir/TestEndianess.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_5b098
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b098.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_5b098.dir/TestEndianess.c.o  -o cmTC_5b098 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5cc10/fast && /usr/bin/make -f CMakeFiles/cmTC_5cc10.dir/build.make CMakeFiles/cmTC_5cc10.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5cc10.dir/CheckFunctionExists.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=fseeko -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_5cc10.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5cc10
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5cc10.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -DCHECK_FUNCTION_EXISTS=fseeko -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_5cc10.dir/CheckFunctionExists.c.o  -o cmTC_5cc10 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7e0a1/fast && /usr/bin/make -f CMakeFiles/cmTC_7e0a1.dir/build.make CMakeFiles/cmTC_7e0a1.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e0a1.dir/CheckIncludeFile.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_7e0a1.dir/CheckIncludeFile.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7e0a1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e0a1.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_7e0a1.dir/CheckIncludeFile.c.o  -o cmTC_7e0a1 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c1140/fast && /usr/bin/make -f CMakeFiles/cmTC_c1140.dir/build.make CMakeFiles/cmTC_c1140.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c1140.dir/SIZEOF_SIZE_T.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-parameter -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_c1140.dir/SIZEOF_SIZE_T.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
+Linking C executable cmTC_c1140
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1140.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-parameter -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_c1140.dir/SIZEOF_SIZE_T.c.o  -o cmTC_c1140 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_55c48/fast && /usr/bin/make -f CMakeFiles/cmTC_55c48.dir/build.make CMakeFiles/cmTC_55c48.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_55c48.dir/SIZEOF_UNSIGNED_LONG.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-parameter -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_55c48.dir/SIZEOF_UNSIGNED_LONG.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_LONG.c
+Linking C executable cmTC_55c48
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55c48.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-parameter -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_55c48.dir/SIZEOF_UNSIGNED_LONG.c.o  -o cmTC_55c48 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAVE_BUILTIN_CTZL succeeded with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f4c10/fast && /usr/bin/make -f CMakeFiles/cmTC_f4c10.dir/build.make CMakeFiles/cmTC_f4c10.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f4c10.dir/src.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-parameter -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-implicit-fallthrough -DHAVE_BUILTIN_CTZL -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_f4c10.dir/src.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f4c10
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4c10.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-parameter -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-implicit-fallthrough -DHAVE_BUILTIN_CTZL -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_f4c10.dir/src.c.o  -o cmTC_f4c10 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(int argc, char **argv) { unsigned long a = argc;  return __builtin_ctzl(a); }
+Determining if files locale.h exist passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3fe5f/fast && /usr/bin/make -f CMakeFiles/cmTC_3fe5f.dir/build.make CMakeFiles/cmTC_3fe5f.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3fe5f.dir/HAVE_LOCALE_H.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-parameter -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_3fe5f.dir/HAVE_LOCALE_H.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CheckIncludeFiles/HAVE_LOCALE_H.c
+Linking C executable cmTC_3fe5f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3fe5f.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-parameter -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_3fe5f.dir/HAVE_LOCALE_H.c.o  -o cmTC_3fe5f 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_190cb/fast && /usr/bin/make -f CMakeFiles/cmTC_190cb.dir/build.make CMakeFiles/cmTC_190cb.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_190cb.dir/HAVE_STDLIB_H.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-parameter -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_190cb.dir/HAVE_STDLIB_H.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CheckIncludeFiles/HAVE_STDLIB_H.c
+Linking C executable cmTC_190cb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_190cb.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-parameter -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_190cb.dir/HAVE_STDLIB_H.c.o  -o cmTC_190cb 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f302c/fast && /usr/bin/make -f CMakeFiles/cmTC_f302c.dir/build.make CMakeFiles/cmTC_f302c.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f302c.dir/NEED_SYS_TYPES_H.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-parameter -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_f302c.dir/NEED_SYS_TYPES_H.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CheckIncludeFiles/NEED_SYS_TYPES_H.c
+Linking C executable cmTC_f302c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f302c.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-parameter -Wno-sign-compare -Wno-shorten-64-to-32 -Wno-implicit-fallthrough  -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_f302c.dir/NEED_SYS_TYPES_H.c.o  -o cmTC_f302c 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ec50a/fast && /usr/bin/make -f CMakeFiles/cmTC_ec50a.dir/build.make CMakeFiles/cmTC_ec50a.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ec50a.dir/TestEndianess.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_ec50a.dir/TestEndianess.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_ec50a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec50a.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_ec50a.dir/TestEndianess.c.o  -o cmTC_ec50a 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e831c/fast && /usr/bin/make -f CMakeFiles/cmTC_e831c.dir/build.make CMakeFiles/cmTC_e831c.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e831c.dir/CheckIncludeFile.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_e831c.dir/CheckIncludeFile.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e831c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e831c.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_e831c.dir/CheckIncludeFile.c.o  -o cmTC_e831c 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5e738/fast && /usr/bin/make -f CMakeFiles/cmTC_5e738.dir/build.make CMakeFiles/cmTC_5e738.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5e738.dir/CheckIncludeFile.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_5e738.dir/CheckIncludeFile.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5e738
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e738.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_5e738.dir/CheckIncludeFile.c.o  -o cmTC_5e738 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_81ece/fast && /usr/bin/make -f CMakeFiles/cmTC_81ece.dir/build.make CMakeFiles/cmTC_81ece.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_81ece.dir/CheckIncludeFile.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_81ece.dir/CheckIncludeFile.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_81ece
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81ece.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_81ece.dir/CheckIncludeFile.c.o  -o cmTC_81ece 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file math.h exists passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_29c3b/fast && /usr/bin/make -f CMakeFiles/cmTC_29c3b.dir/build.make CMakeFiles/cmTC_29c3b.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_29c3b.dir/CheckIncludeFile.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_29c3b.dir/CheckIncludeFile.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_29c3b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29c3b.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_29c3b.dir/CheckIncludeFile.c.o  -o cmTC_29c3b 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file float.h exists passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_02282/fast && /usr/bin/make -f CMakeFiles/cmTC_02282.dir/build.make CMakeFiles/cmTC_02282.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_02282.dir/CheckIncludeFile.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_02282.dir/CheckIncludeFile.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_02282
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02282.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_02282.dir/CheckIncludeFile.c.o  -o cmTC_02282 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file time.h exists passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3af60/fast && /usr/bin/make -f CMakeFiles/cmTC_3af60.dir/build.make CMakeFiles/cmTC_3af60.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3af60.dir/CheckIncludeFile.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_3af60.dir/CheckIncludeFile.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3af60
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3af60.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_3af60.dir/CheckIncludeFile.c.o  -o cmTC_3af60 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8d730/fast && /usr/bin/make -f CMakeFiles/cmTC_8d730.dir/build.make CMakeFiles/cmTC_8d730.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8d730.dir/CheckIncludeFile.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_8d730.dir/CheckIncludeFile.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8d730
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d730.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_8d730.dir/CheckIncludeFile.c.o  -o cmTC_8d730 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_31dcf/fast && /usr/bin/make -f CMakeFiles/cmTC_31dcf.dir/build.make CMakeFiles/cmTC_31dcf.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_31dcf.dir/CheckIncludeFile.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_31dcf.dir/CheckIncludeFile.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_31dcf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31dcf.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_31dcf.dir/CheckIncludeFile.c.o  -o cmTC_31dcf 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7e108/fast && /usr/bin/make -f CMakeFiles/cmTC_7e108.dir/build.make CMakeFiles/cmTC_7e108.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e108.dir/CheckIncludeFile.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_7e108.dir/CheckIncludeFile.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7e108
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e108.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_7e108.dir/CheckIncludeFile.c.o  -o cmTC_7e108 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_95cdb/fast && /usr/bin/make -f CMakeFiles/cmTC_95cdb.dir/build.make CMakeFiles/cmTC_95cdb.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95cdb.dir/CheckIncludeFile.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_95cdb.dir/CheckIncludeFile.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_95cdb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95cdb.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_95cdb.dir/CheckIncludeFile.c.o  -o cmTC_95cdb 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7978c/fast && /usr/bin/make -f CMakeFiles/cmTC_7978c.dir/build.make CMakeFiles/cmTC_7978c.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7978c.dir/CheckIncludeFile.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_7978c.dir/CheckIncludeFile.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7978c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7978c.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_7978c.dir/CheckIncludeFile.c.o  -o cmTC_7978c 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7bfb0/fast && /usr/bin/make -f CMakeFiles/cmTC_7bfb0.dir/build.make CMakeFiles/cmTC_7bfb0.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7bfb0.dir/CheckIncludeFile.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_7bfb0.dir/CheckIncludeFile.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7bfb0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7bfb0.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_7bfb0.dir/CheckIncludeFile.c.o  -o cmTC_7bfb0 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_42af5/fast && /usr/bin/make -f CMakeFiles/cmTC_42af5.dir/build.make CMakeFiles/cmTC_42af5.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_42af5.dir/CheckIncludeFile.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_42af5.dir/CheckIncludeFile.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_42af5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42af5.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_42af5.dir/CheckIncludeFile.c.o  -o cmTC_42af5 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8c3e5/fast && /usr/bin/make -f CMakeFiles/cmTC_8c3e5.dir/build.make CMakeFiles/cmTC_8c3e5.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8c3e5.dir/CheckIncludeFile.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_8c3e5.dir/CheckIncludeFile.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8c3e5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c3e5.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_8c3e5.dir/CheckIncludeFile.c.o  -o cmTC_8c3e5 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files malloc.h exist passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e1264/fast && /usr/bin/make -f CMakeFiles/cmTC_e1264.dir/build.make CMakeFiles/cmTC_e1264.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1264.dir/OPJ_HAVE_MALLOC_H.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_e1264.dir/OPJ_HAVE_MALLOC_H.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CheckIncludeFiles/OPJ_HAVE_MALLOC_H.c
+Linking C executable cmTC_e1264
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1264.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_e1264.dir/OPJ_HAVE_MALLOC_H.c.o  -o cmTC_e1264 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the posix_memalign exist passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e8ab5/fast && /usr/bin/make -f CMakeFiles/cmTC_e8ab5.dir/build.make CMakeFiles/cmTC_e8ab5.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e8ab5.dir/CheckSymbolExists.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot -D_POSIX_C_SOURCE=200112L  -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_e8ab5.dir/CheckSymbolExists.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e8ab5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8ab5.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_e8ab5.dir/CheckSymbolExists.c.o  -o cmTC_e8ab5 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+File /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memalign exist passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_60bb4/fast && /usr/bin/make -f CMakeFiles/cmTC_60bb4.dir/build.make CMakeFiles/cmTC_60bb4.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_60bb4.dir/CheckSymbolExists.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_60bb4.dir/CheckSymbolExists.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_60bb4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60bb4.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_60bb4.dir/CheckSymbolExists.c.o  -o cmTC_60bb4 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+File /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memalign
+  return ((int*)(&memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0f421/fast && /usr/bin/make -f CMakeFiles/cmTC_0f421.dir/build.make CMakeFiles/cmTC_0f421.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0f421.dir/CheckIncludeFile.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-strict-prototypes -Wno-shadow -Wno-unused-function  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_0f421.dir/CheckIncludeFile.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0f421
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f421.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-strict-prototypes -Wno-shadow -Wno-unused-function  -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_0f421.dir/CheckIncludeFile.c.o  -o cmTC_0f421 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c505f/fast && /usr/bin/make -f CMakeFiles/cmTC_c505f.dir/build.make CMakeFiles/cmTC_c505f.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c505f.dir/src.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-strict-prototypes -Wno-shadow -Wno-unused-function -DCMAKE_HAVE_LIBC_PTHREAD -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_c505f.dir/src.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/src.c
+/home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/src.c:3:7: warning: no previous prototype for function 'test_func' [-Wmissing-prototypes]
+void* test_func(void* data)
+      ^
+/home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/src.c:3:1: note: declare 'static' if the function is not intended to be used outside of this translation unit
+void* test_func(void* data)
+^
+static 
+1 warning generated.
+Linking C executable cmTC_c505f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c505f.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-undef -Wno-strict-prototypes -Wno-shadow -Wno-unused-function -DCMAKE_HAVE_LIBC_PTHREAD -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_c505f.dir/src.c.o  -o cmTC_c505f 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the include file linux/videodev2.h exists passed with the following output:
+Change Dir: /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6aa48/fast && /usr/bin/make -f CMakeFiles/cmTC_6aa48.dir/build.make CMakeFiles/cmTC_6aa48.dir/build
+make[1]: Entering directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6aa48.dir/CheckIncludeFile.c.o
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE   -o CMakeFiles/cmTC_6aa48.dir/CheckIncludeFile.c.o   -c /home/openharmony/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6aa48
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6aa48.dir/link.txt --verbose=1
+/home/openharmony/prebuilts/clang/ohos/linux-x86_64/llvm/bin/clang --target=arm-linux-ohos --gcc-toolchain=/home/openharmony/prebuilts/gcc/linux-x86/arm/gcc-linaro-7.5.0-arm-linux-gnueabi/bin/arm-linux-gnueabi-gcc --sysroot=/home/openharmony/out/hispark_taurus/ipcamera_hispark_taurus_linux/sysroot    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -pthread -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG  -fuse-ld=lld  -Wl,--gc-sections -Wl,--as-needed  CMakeFiles/cmTC_6aa48.dir/CheckIncludeFile.c.o  -o cmTC_6aa48 
+make[1]: Leaving directory '/home/openharmony/device/soc/hisilicon/hi3516dv300/sdk_linux/sample/taurus/ai_sample/third_party/src/opencv/build/release/CMakeFiles/CMakeTmp'
+
+
+
