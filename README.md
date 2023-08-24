@@ -25,6 +25,10 @@ https://gitee.com/HiSpark/2023_hisilicon_embedded_competition/tree/master/AIOT/1
 
 https://github.com/XianMengxi/Aerobic_mini_program
 
+## 本项目神经网络训练简要介绍
+
+https://blog.csdn.net/jingyu_1/article/details/132408986
+
 ## 本项目的视频演示（B站）
 
 https://www.bilibili.com/video/BV1H94y1q7sa/#reply361176344
